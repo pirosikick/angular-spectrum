@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="bower_components/spectrum/spectrum.css">
+</head>
+<body ng-controller="Ctrl">
+
+<spectrum ng-model="color1"></spectrum>
+<span ng-bind="color1"></span>
+<script src="bower_components/jquery/jquery.min.js"></script>
+<script src="bower_components/spectrum/spectrum.js"></script>
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="angular-spectrum.js"></script>
+<script type="text/javascript">
+angular.module('app', ['spectrum'])
+  .controller('Ctrl', function ($scope) {
+    $scope.color1 = '';
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "angular-spectrum",
+  "main": "angular-spectrum.js",
+  "version": "0.0.0",
+  "authors": [
+    "Hiroyuki Anai <pirosikick@gmail.com>"
+  ],
+  "description": "the module of angular.js for spectrum.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.0",
+    "angular": "~1.2.10",
+    "spectrum": "1.2.0"
+  }
+}
